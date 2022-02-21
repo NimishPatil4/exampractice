@@ -16,5 +16,5 @@ app.post("/submit_data",function(req,res){
         result=mymodule.myprime(num);
          res.send(result);
 });
-app.listen(3001);
-console.log("server started at port 3000");
+app.listen(8081);
+console.log("server started at port 8081");
